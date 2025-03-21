@@ -300,7 +300,54 @@ body {
     height: 5vh;
 }
 
+#global_research_panel {
+    height: 78vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#global_research_panel_main_div {
+    background-color: aliceblue;
+    width: 80%;
+    height: 70%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+
+}
+
+#global_research_panel_main_div_first_half {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#global_research_panel_main_div_second_half {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
+
+#global_research_panel_main_div_title {
+    color: rgb(1, 31, 36);
+    font-size: 2.7rem;
+    line-height: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+#Get_the_Report {
+    background-color: rgb(9, 99, 114);
+    border: 0;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
 
 
 @media (max-width:1200px) {
@@ -311,6 +358,15 @@ body {
 
     .Reserch-Panel-first-half-1 {
         font-size: 3rem;
+    }
+
+    #global_research_panel_main_div_title {
+        color: rgb(1, 31, 36);
+        font-size: 2rem;
+        line-height: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.7rem;
     }
 }
 
@@ -508,5 +564,8 @@ body {
         color: rgb(1, 31, 36);
     }
 
+    #global_research_panel {
+        display: none;
+    }
 
 }
