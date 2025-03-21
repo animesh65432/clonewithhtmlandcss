@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Big Shoulders", sans-serif;
+}
+
+#lyssna-first-half {
+    height: 100vh;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+#lyssna-header {
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+
+}
+
+#lyssna-header-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#lyssna-heade-first-half {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#lyssna-heade-first-half>button {
+    background-color: rgb(0, 100, 117);
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0;
+    border-radius: 5px;
+    height: 40%;
+    font-size: 1rem;
+}
+
+
+
+#lyssna-heade-second-half {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+#lyssna-heade-second-half {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#lyssna-heade-third-half {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#lyssna-heade-third-half-first-buttom {
+    border: 0;
+    width: 10vh;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
+
+#lyssna-heade-third-half-second-buttom {
+    border: 0;
+    width: 15vh;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(0, 100, 117);
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: white;
+}
+
+#lyssna-heade-third-half-serch-icon {
+    width: 3vw;
+    height: 3vh;
+    background-color: transparent;
+    color: transparent;
+}
+
+#Menu-section {
+    display: none;
+}
+
+#sidebar-main-div {
+    display: none;
+}
+
+#Reserch-Panel {
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+}
+
+#Reserch-Panel-first-half {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+    gap: 2rem;
+}
+
+#Reserch-Panel-first-half-3 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#Reserch-Panel-first-half-1 {
+    font-size: 3rem;
+    color: rgb(1, 31, 36);
+}
+
+#Reserch-Panel-second-half {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Reserch-Panel-first-half-3>button {
+    background-color: rgb(0, 100, 117);
+    border: 0;
+    width: 20vh;
+    height: 7vh;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#Reserch-Panel-first-half-3>div {
+    width: 20vh;
+    height: 7vh;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Reserch-Panel-second-half-image {
+    width: 38vw;
+    height: 60vh;
+}
+
+.responsive-text {
+    font-size: 1.3rem;
+    color: rgb(1, 31, 36);
+}
+
+#Show-the-partners {
+    margin-top: 30px;
+    height: 50vh;
+    width: 100%;
+
+}
+
+
+#partners {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+#partners img {
+    height: 6vh;
+    width: 6vw;
+}
+
+#Access-high-quality {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+#Access-high-quality-1-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(1, 31, 36);
+    font-size: 3rem;
+}
+
+#Access-high-quality-2-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(1, 31, 36);
+    font-size: 3rem;
+}
+
+#Access-high-quality-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(1, 31, 36);
+    font-size: 2rem;
+}
+
+#buget-box {
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#buget {
+    width: 90%;
+    background-color: rgb(209, 185, 255);
+    border-radius: 5px;
+    height: 60vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#buget-img {
+    width: 40vw;
+    height: 50vh;
+}
+
+#buget-1-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#buget-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buget-1-col-title {
+    color: rgb(1, 31, 36);
+    font-size: 3rem;
+}
+
+#buget-1-col-title-description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#buget-1-col-description {
+    font-size: 1.2rem;
+    color: rgb(1, 31, 36);
+
+}
+
+#navbar-after-buget-box {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.navbar-after-buget-box-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: rgb(1, 31, 36);
+}
+
+.navbar-after-buget-box-ul-img {
+    width: 5vw;
+    height: 5vh;
+}
+
+
+
+
+@media (max-width:1200px) {
+    .responsive-text {
+        font-size: 0.9rem;
+        color: rgb(1, 31, 36);
+    }
+
+    .Reserch-Panel-first-half-1 {
+        font-size: 3rem;
+    }
+}
+
+
+
+@media (max-width :1000px) {
+    #lyssna-first-half {
+        height: 100vh;
+        background-color: aliceblue;
+        width: 100%;
+    }
+
+    #lyssna-header {
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        padding: 2%;
+
+    }
+
+    #lyssna-header-title {
+        font-weight: 300;
+    }
+
+    #lyssna-heade-second-half {
+        display: none;
+    }
+
+    #lyssna-heade-first-half>button {
+        display: none;
+    }
+
+    #lyssna-heade-third-half-second-buttom {
+        display: none;
+    }
+
+    #lyssna-heade-third-half-first-buttom {
+        display: none;
+    }
+
+    #Menu-section {
+        display: block;
+        height: 3vh;
+        width: 3vw;
+        position: relative;
+    }
+
+    #Menu-section-img {
+        object-fit: fill;
+        height: 3vh;
+        width: 3vw;
+    }
+
+    #sidebar-main-div {
+        width: 100%;
+        height: 100%;
+        top: -400px;
+        background: #dedddd;
+        transition: top 0.10s ease-in-out;
+    }
+
+    #sidebar-main-div.active {
+        display: block;
+        top: 0;
+        position: fixed;
+        padding: 50px;
+        height: 100%;
+    }
+
+    #sidebar-header {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    #closeBtn {
+        position: relative;
+        background-color: transparent;
+        padding: 5px;
+        border: 0;
+    }
+
+    #closeBtn-Icon {
+        object-fit: fill;
+        width: 5vw;
+        height: 5vh;
+        background-color: transparent;
+        border: 0;
+    }
+
+    #sidebar-main-div-main {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        font-size: 1.5rem;
+    }
+
+    #sidebar-footer {
+        margin-top: 18px;
+        display: flex;
+        gap: 10px;
+    }
+
+    #sidebar-footer>button {
+        background-color: rgb(0, 100, 117);
+        border: 0;
+        width: 40%;
+        height: 5vh;
+        color: white;
+        border-radius: 5px;
+        font-size: 1rem;
+        padding: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #Reserch-Panel {
+        margin-top: 20px;
+        height: 90vh;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        width: 100%;
+        place-content: center;
+
+
+    }
+
+    #Reserch-Panel-first-half {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 40vh;
+    }
+
+    #Reserch-Panel-first-half-1 {
+        font-size: 2rem;
+    }
+
+    .responsive-text {
+        font-size: 1.2rem;
+    }
+
+    #Reserch-Panel-second-half-image {
+        width: 32vw;
+        height: 48vh;
+    }
+
+    #Access-high-quality-1-title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: rgb(1, 31, 36);
+        font-size: 2rem;
+    }
+
+    #Access-high-quality-2-title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: rgb(1, 31, 36);
+        font-size: 2rem;
+    }
+
+    #Access-high-quality-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(1, 31, 36);
+        font-size: 0.9rem;
+    }
+
+    #buget-box {
+        width: 100%;
+        background-color: rgb(209, 185, 255);
+    }
+
+    #buget-1-col-title {
+        font-size: 1.1rem;
+    }
+
+    #buget-1-col-description {
+        font-size: 0.6rem;
+        color: rgb(1, 31, 36);
+
+    }
+
+    .navbar-after-buget-box-ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 0.9rem;
+        color: rgb(1, 31, 36);
+    }
+
+
+}
