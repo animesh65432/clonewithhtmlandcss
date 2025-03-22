@@ -349,6 +349,175 @@ body {
     border-radius: 5px;
 }
 
+#global_research_panel_mobile_navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    background-color: aliceblue;
+}
+
+#global_research_panel_mobile_navbar_main_div {
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.global_research_panel_mobile_navbar_main_div_title_text {
+    font-size: 2.5rem;
+    color: rgb(1, 31, 36);
+}
+
+#global_research_panel_mobile_navbar_main_div_text {
+    font-size: 1.5rem;
+    color: rgb(1, 31, 36);
+    width: 40%;
+}
+
+#global_research_panel_mobile_navbar_main_div_buttom {
+    color: rgb(1, 31, 36);
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+    border: 0;
+    background-color: rgb(9, 99, 114);
+    color: white;
+    border-radius: 5px;
+}
+
+
+#feedback_for_Users {
+    background-color: rgb(9, 99, 114);
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#feedback_for_Users_name {
+    width: 50%;
+}
+
+#feedback_for_Users_text {
+    color: white;
+    font-size: 1.4rem;
+    width: 50%;
+}
+
+#feedback_for_Users_name_inside_div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: start;
+    gap: 1rem;
+    justify-content: flex-start;
+    color: white;
+}
+
+#feedback_for_Users_company_logo {
+    width: 10vw;
+    height: auto;
+}
+
+#Customers_images {
+    width: 45vw;
+    height: 45vh;
+}
+
+#feedback_for_Users_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#Getting_started {
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+#Getting_started_title {
+    text-align: center;
+}
+
+#Getting_started_title {
+    font-size: 3rem;
+    color: rgb(1, 31, 36);
+}
+
+#Getting_started_description {
+    font-size: 1.2rem;
+    color: rgb(1, 31, 36);
+    text-align: center;
+}
+
+#Getting_started_example {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-content: center;
+}
+
+
+
+.Getting_started_example_div {
+    margin-top: 70px;
+    height: 60vh;
+    width: 25vw;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.Getting_started_example_img {
+    width: 25vw;
+    height: 40vh;
+    object-fit: fill;
+    border-radius: 15px;
+}
+
+.Getting_started_example_div_description {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1rem;
+    width: 100%;
+    gap: 10px;
+}
+
+.Getting_started_example_div_description-1 {
+    color: rgb(1, 31, 36);
+    font-size: 1rem;
+
+}
+
+.Getting_started_example_div_description-2 {
+    font-size: 1.3rem;
+}
+
+.Getting_started_example_div_description-4 {
+    font-size: 1.1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
 
 @media (max-width:1200px) {
     .responsive-text {
@@ -567,5 +736,46 @@ body {
     #global_research_panel {
         display: none;
     }
+
+    .global_research_panel_mobile_navbar_main_div_title_text {
+        font-size: 1.5rem;
+        color: rgb(1, 31, 36);
+    }
+
+    #global_research_panel_mobile_navbar_main_div_text {
+        font-size: 0.8rem;
+        color: rgb(1, 31, 36);
+        width: 40%;
+    }
+
+    #navbar-after-buget-box {
+        width: 100%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .navbar-after-buget-box-ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        color: rgb(1, 31, 36);
+        width: 50%;
+    }
+
+    .navbar-after-buget-box-ul-img {
+        width: 5vw;
+        height: 5vh;
+    }
+
+    #Getting_started_example {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-content: center;
+    }
+
 
 }
